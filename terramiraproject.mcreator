@@ -12,6 +12,18 @@
           "src/main/resources/data/terramiraproject/damage_type/test.json"
         ]
       }
+    },
+    {
+      "name": "Testencha",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testencha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/enchantment/TestenchaEnchantment.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,6 +31,7 @@
   "language_map": {
     "en_us": {
       "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
+      "enchantment.terramiraproject.testencha": "Testencha",
       "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.test": "%1$s died"
     }
