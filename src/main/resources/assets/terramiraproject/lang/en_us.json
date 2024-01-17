@@ -1,5 +1,8 @@
 {
   "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.asdasd.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.asdasd.item": "%1$s was killed by %2$s using %3$s",
+  "death.attack.asdasd": "%1$s died",
   "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
   "death.attack.test": "%1$s died"
 }
