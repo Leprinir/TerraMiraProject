@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/damage_type/test.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.test": "%1$s died"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "terramiraproject",
+    "modName": "TerramiraProject",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.terramiraproject",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
