@@ -1,8 +1,8 @@
 {
-  "_fv": 57,
+  "_fv": 70,
   "_type": "damagetype",
   "definition": {
-    "exhaustion": 0.1,
+    "exhaustion": 0.5,
     "scaling": "never",
     "effects": "freezing",
     "normalDeathMessage": "%1$s died",
