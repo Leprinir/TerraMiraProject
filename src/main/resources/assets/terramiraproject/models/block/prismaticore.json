@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terramiraproject:block/prismatic_ore",
+    "particle": "terramiraproject:block/prismatic_ore"
+  },
+  "render_type": "solid"
+}

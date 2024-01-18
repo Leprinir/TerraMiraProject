@@ -1,6 +1,19 @@
 {
+  "item.terramiraproject.iron_plate": "Iron Plate",
+  "item.terramiraproject.redstoneplate": "Redstoneplate",
   "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
-  "enchantment.terramiraproject.testencha": "Testencha",
+  "block.terramiraproject.ferrosore": "Ferros ore",
+  "item.terramiraproject.copper_plate": "Copper Plate",
+  "block.terramiraproject.prismaticore": "Призматическая руда",
   "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
-  "death.attack.test": "%1$s died"
+  "item.terramiraproject.copran": "Copran",
+  "item.terramiraproject.oroningot": "Oroningot",
+  "death.attack.test": "%1$s died",
+  "block.terramiraproject.oronore": "Oron ore",
+  "item.terramiraproject.ferrosingot": "Ferros ingot",
+  "item.terramiraproject.fusion_prisma": "Fusion Prisma",
+  "item.terramiraproject.spirit_glyph": "Spirit Glyph",
+  "item.terramiraproject.jumping_plate": "Jumping Plate",
+  "item.terramiraproject.prismaticshard": "Prismaticshard",
+  "item.terramiraproject.gold_plate": "Gold Plate"
 }

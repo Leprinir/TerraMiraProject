@@ -1,27 +1,427 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "damagetype",
-      "sortid": 2,
+      "name": "CopperPlate",
+      "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "copper_plate",
       "metadata": {
         "files": [
-          "src/main/resources/data/terramiraproject/damage_type/test.json"
+          "src/main/java/net/mcreator/terramiraproject/item/CopperPlateItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/copper_plate.json"
         ]
       }
     },
     {
-      "name": "Testencha",
-      "type": "enchantment",
+      "name": "GoldPlate",
+      "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testencha",
+      "registry_name": "gold_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terramiraproject/enchantment/TestenchaEnchantment.java"
+          "src/main/java/net/mcreator/terramiraproject/item/GoldPlateItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/gold_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/item/IronPlateItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/iron_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpingPlate",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumping_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/jumping_plate.json",
+          "src/main/java/net/mcreator/terramiraproject/item/JumpingPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Redstoneplate",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/item/RedstoneplateItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/redstoneplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismaticshard",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismaticshard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/prismaticshard.json",
+          "src/main/java/net/mcreator/terramiraproject/item/PrismaticshardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Prismaticore",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismaticore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/block/PrismaticoreBlock.java",
+          "src/main/resources/assets/terramiraproject/models/block/prismaticore.json",
+          "src/main/resources/assets/terramiraproject/models/item/prismaticore.json",
+          "src/main/resources/assets/terramiraproject/blockstates/prismaticore.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismaticoredroptable",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismaticoredroptable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/loot_tables/blocks/prismaticoredroptable.json"
+        ]
+      }
+    },
+    {
+      "name": "PrismaticoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismaticore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/PrismaticoreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpiritGlyphItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_glyph_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/SpiritGlyphItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpiritGlyph",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_glyph",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/item/SpiritGlyphItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/spirit_glyph.json"
+        ]
+      }
+    },
+    {
+      "name": "FusionPrisma",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_prisma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/fusion_prisma.json",
+          "src/main/java/net/mcreator/terramiraproject/item/FusionPrismaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fusionprismacraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusionprismacraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/fusionprismacraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Oronore",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oronore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/blockstates/oronore.json",
+          "src/main/java/net/mcreator/terramiraproject/block/OronoreBlock.java",
+          "src/main/resources/assets/terramiraproject/models/item/oronore.json",
+          "src/main/resources/assets/terramiraproject/models/block/oronore.json"
+        ]
+      }
+    },
+    {
+      "name": "Oroningot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oroningot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/oroningot.json",
+          "src/main/java/net/mcreator/terramiraproject/item/OroningotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Oroningotsmelt",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oroningotsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/oroningotsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Orontooltip",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orontooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/OrontooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ferrosore",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrosore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/block/ferrosore.json",
+          "src/main/java/net/mcreator/terramiraproject/block/FerrosoreBlock.java",
+          "src/main/resources/assets/terramiraproject/models/item/ferrosore.json",
+          "src/main/resources/assets/terramiraproject/blockstates/ferrosore.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferrosingot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrosingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/ferrosingot.json",
+          "src/main/java/net/mcreator/terramiraproject/item/FerrosingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ferrosingotsmelt",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrosingotsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/ferrosingotsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferrosingottooltip",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrosingottooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/FerrosingottooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Copran",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copran",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/copran.json",
+          "src/main/java/net/mcreator/terramiraproject/item/CopranItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copraningottooltip",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copraningottooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/CopraningottooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Copraningotcraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copraningotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/copraningotcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismaticshardtooltip",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismaticshardtooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/PrismaticshardtooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
         ]
       }
     }
@@ -30,10 +430,23 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.terramiraproject.iron_plate": "Iron Plate",
+      "item.terramiraproject.redstoneplate": "Redstoneplate",
       "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
-      "enchantment.terramiraproject.testencha": "Testencha",
+      "block.terramiraproject.ferrosore": "Ferros ore",
+      "item.terramiraproject.copper_plate": "Copper Plate",
+      "block.terramiraproject.prismaticore": "Призматическая руда",
       "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
-      "death.attack.test": "%1$s died"
+      "item.terramiraproject.copran": "Copran",
+      "item.terramiraproject.oroningot": "Oroningot",
+      "death.attack.test": "%1$s died",
+      "block.terramiraproject.oronore": "Oron ore",
+      "item.terramiraproject.ferrosingot": "Ferros ingot",
+      "item.terramiraproject.fusion_prisma": "Fusion Prisma",
+      "item.terramiraproject.spirit_glyph": "Spirit Glyph",
+      "item.terramiraproject.jumping_plate": "Jumping Plate",
+      "item.terramiraproject.prismaticshard": "Prismaticshard",
+      "item.terramiraproject.gold_plate": "Gold Plate"
     }
   },
   "foldersRoot": {

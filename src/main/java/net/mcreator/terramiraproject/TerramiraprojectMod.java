@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.terramiraproject.init.TerramiraprojectModEnchantments;
+import net.mcreator.terramiraproject.init.TerramiraprojectModTabs;
+import net.mcreator.terramiraproject.init.TerramiraprojectModItems;
+import net.mcreator.terramiraproject.init.TerramiraprojectModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,7 +51,11 @@ public class TerramiraprojectMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		TerramiraprojectModEnchantments.REGISTRY.register(bus);
+		TerramiraprojectModBlocks.REGISTRY.register(bus);
+
+		TerramiraprojectModItems.REGISTRY.register(bus);
+
+		TerramiraprojectModTabs.REGISTRY.register(bus);
 
 	}
 

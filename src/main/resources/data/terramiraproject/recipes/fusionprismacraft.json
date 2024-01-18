@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "terramiraproject:prismaticshard"
+    }
+  },
+  "result": {
+    "item": "terramiraproject:fusion_prisma",
+    "count": 1
+  }
+}
