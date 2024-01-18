@@ -3,26 +3,26 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spiritglyph",
+    "texture": "namalon_chunk",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Spirit Glyph",
-    "rarity": "RARE",
+    "name": "Namalonchunk",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "MATERIALS"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 10,
+    "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
-    "stayInGridWhenCrafting": true,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
@@ -36,7 +36,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onItemInInventoryTick": {
-      "name": "SpiritGlyphItemInInventoryTick"
+      "name": "NamalonchunkItemInInventoryTick"
     },
     "enableRanged": false,
     "shootConstantly": false,

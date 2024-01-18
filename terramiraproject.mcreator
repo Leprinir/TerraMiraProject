@@ -180,20 +180,6 @@
       }
     },
     {
-      "name": "SpiritGlyph",
-      "type": "item",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spirit_glyph",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/terramiraproject/item/SpiritGlyphItem.java",
-          "src/main/resources/assets/terramiraproject/models/item/spirit_glyph.json"
-        ]
-      }
-    },
-    {
       "name": "FusionPrisma",
       "type": "item",
       "sortid": 12,
@@ -424,29 +410,362 @@
           }
         ]
       }
+    },
+    {
+      "name": "Spiritglyphcraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiritglyphcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/spiritglyphcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poisonedtouch",
+      "type": "enchantment",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonedtouch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/enchantment/PoisonedtouchEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Anemia",
+      "type": "enchantment",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anemia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/enchantment/AnemiaEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "NamalonchunkItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonchunk_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/NamalonchunkItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Namalonchunk",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonchunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terramiraproject/models/item/namalonchunk.json",
+          "src/main/java/net/mcreator/terramiraproject/item/NamalonchunkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Namalonblade",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/item/NamalonbladeItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/namalonblade.json"
+        ]
+      }
+    },
+    {
+      "name": "Anemiapotion",
+      "type": "potioneffect",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anemiapotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/potion/AnemiapotionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AnemiapotionActiveTickCondition",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anemiapotion_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/AnemiapotionActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Namalonbladetooltip",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonbladetooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/NamalonbladetooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoisonedtoucheffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonedtoucheffect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/PoisonedtoucheffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoisonedtoucheffectActiveTickCondition",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonedtoucheffect_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/PoisonedtoucheffectActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Namalonbladecraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonbladecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terramiraproject/recipes/namalonbladecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poisonedtoucheffect",
+      "type": "potioneffect",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonedtoucheffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/potion/PoisonedtoucheffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Poisontouchencha",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisontouchencha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/PoisontouchenchaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NamalonbladeItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namalonblade_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/NamalonbladeItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpiritglyphitemItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiritglyphitem_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terramiraproject/procedures/SpiritglyphitemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "item.terramiraproject.redstoneplate": "Проводящая пластина",
+      "item.terramiraproject.copran": "Копран",
+      "block.terramiraproject.oronore": "Рудный орон",
+      "effect.terramiraproject.poisonedtoucheffect": "Poisoned touch",
+      "item.terramiraproject.jumping_plate": "Прыгучие пластины",
+      "item.terramiraproject.namalonchunk": "Namalonchunk",
+      "item.terramiraproject.gold_plate": "Золотые пластины",
+      "item.terramiraproject.iron_plate": "Железные пластины",
+      "item.terramiraproject.spirit_glyphcurios": "Spirit Glyph",
+      "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
+      "block.terramiraproject.ferrosore": "Рудный феррос",
+      "enchantment.terramiraproject.poisonedtouch": "Poison touch",
+      "enchantment.terramiraproject.anemia": "Anemia",
+      "item.terramiraproject.copper_plate": "Медные пластины",
+      "block.terramiraproject.prismaticore": "Призматическая руда",
+      "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
+      "item.terramiraproject.oroningot": "Слиток орона",
+      "death.attack.test": "%1$s died",
+      "item.terramiraproject.ferrosingot": "Слиток ферроса",
+      "item.terramiraproject.fusion_prisma": "Призма слияния",
+      "effect.terramiraproject.anemiapotion": "Anemia",
+      "item.terramiraproject.prismaticshard": "Призматический осколок",
+      "item.terramiraproject.namalonblade": "Namalonblade"
+    },
     "en_us": {
-      "item.terramiraproject.iron_plate": "Iron Plate",
       "item.terramiraproject.redstoneplate": "Redstoneplate",
+      "item.terramiraproject.copran": "Copran",
+      "block.terramiraproject.oronore": "Oron ore",
+      "effect.terramiraproject.poisonedtoucheffect": "Poisoned touch",
+      "item.terramiraproject.jumping_plate": "Jumping Plate",
+      "item.terramiraproject.namalonchunk": "Namalonchunk",
+      "item.terramiraproject.gold_plate": "Gold Plate",
+      "item.terramiraproject.iron_plate": "Iron Plate",
+      "item.terramiraproject.spirit_glyphcurios": "Spirit Glyph",
       "death.attack.test.player": "%1$s died whilst trying to escape %2$s",
       "block.terramiraproject.ferrosore": "Ferros ore",
+      "enchantment.terramiraproject.poisonedtouch": "Poison touch",
+      "enchantment.terramiraproject.anemia": "Anemia",
       "item.terramiraproject.copper_plate": "Copper Plate",
       "block.terramiraproject.prismaticore": "Призматическая руда",
       "death.attack.test.item": "%1$s was killed by %2$s using %3$s",
-      "item.terramiraproject.copran": "Copran",
       "item.terramiraproject.oroningot": "Oroningot",
       "death.attack.test": "%1$s died",
-      "block.terramiraproject.oronore": "Oron ore",
       "item.terramiraproject.ferrosingot": "Ferros ingot",
       "item.terramiraproject.fusion_prisma": "Fusion Prisma",
-      "item.terramiraproject.spirit_glyph": "Spirit Glyph",
-      "item.terramiraproject.jumping_plate": "Jumping Plate",
+      "effect.terramiraproject.anemiapotion": "Anemia",
       "item.terramiraproject.prismaticshard": "Prismaticshard",
-      "item.terramiraproject.gold_plate": "Gold Plate"
+      "item.terramiraproject.namalonblade": "Namalonblade"
     }
   },
   "foldersRoot": {

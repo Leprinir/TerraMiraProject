@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "terramiraproject:item/namalon_blade"
+  }
+}

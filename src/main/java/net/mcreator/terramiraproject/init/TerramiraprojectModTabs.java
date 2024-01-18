@@ -29,7 +29,7 @@ public class TerramiraprojectModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(TerramiraprojectModItems.SPIRIT_GLYPH.get());
+			tabData.accept(TerramiraprojectModItems.NAMALONBLADE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -37,6 +37,7 @@ public class TerramiraprojectModTabs {
 			tabData.accept(TerramiraprojectModItems.ORONINGOT.get());
 			tabData.accept(TerramiraprojectModItems.FERROSINGOT.get());
 			tabData.accept(TerramiraprojectModItems.COPRAN.get());
+			tabData.accept(TerramiraprojectModItems.NAMALONCHUNK.get());
 		}
 	}
 }

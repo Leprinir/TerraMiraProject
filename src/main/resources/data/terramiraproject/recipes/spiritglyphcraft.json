@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramiraproject:ferrosingot"
+    },
+    "b": {
+      "tag": "minecraft:stone"
+    },
+    "c": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "d": {
+      "item": "terramiraproject:fusion_prisma"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 1
+  }
+}

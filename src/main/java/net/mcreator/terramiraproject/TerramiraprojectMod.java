@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.terramiraproject.init.TerramiraprojectModTabs;
+import net.mcreator.terramiraproject.init.TerramiraprojectModMobEffects;
 import net.mcreator.terramiraproject.init.TerramiraprojectModItems;
+import net.mcreator.terramiraproject.init.TerramiraprojectModEnchantments;
 import net.mcreator.terramiraproject.init.TerramiraprojectModBlocks;
 
 import java.util.function.Supplier;
@@ -55,7 +57,10 @@ public class TerramiraprojectMod {
 
 		TerramiraprojectModItems.REGISTRY.register(bus);
 
+		TerramiraprojectModEnchantments.REGISTRY.register(bus);
 		TerramiraprojectModTabs.REGISTRY.register(bus);
+
+		TerramiraprojectModMobEffects.REGISTRY.register(bus);
 
 	}
 

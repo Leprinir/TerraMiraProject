@@ -9,28 +9,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.terramiraproject.procedures.SpiritGlyphItemInInventoryTickProcedure;
+import net.mcreator.terramiraproject.procedures.NamalonchunkItemInInventoryTickProcedure;
 
 import java.util.List;
 
-public class SpiritGlyphItem extends Item {
-	public SpiritGlyphItem() {
-		super(new Item.Properties().durability(10).fireResistant().rarity(Rarity.RARE));
-	}
-
-	@Override
-	public boolean hasCraftingRemainingItem() {
-		return true;
-	}
-
-	@Override
-	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
-		return new ItemStack(this);
-	}
-
-	@Override
-	public boolean isRepairable(ItemStack itemstack) {
-		return false;
+public class NamalonchunkItem extends Item {
+	public NamalonchunkItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -41,6 +26,6 @@ public class SpiritGlyphItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		SpiritGlyphItemInInventoryTickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		NamalonchunkItemInInventoryTickProcedure.execute(world, entity);
 	}
 }
