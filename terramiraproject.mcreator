@@ -9,8 +9,8 @@
       "registry_name": "copper_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terramiraproject/item/CopperPlateItem.java",
-          "src/main/resources/assets/terramiraproject/models/item/copper_plate.json"
+          "src/main/resources/assets/terramiraproject/models/item/copper_plate.json",
+          "src/main/java/net/mcreator/terramiraproject/item/CopperPlateItem.java"
         ]
       }
     },
@@ -23,8 +23,8 @@
       "registry_name": "gold_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terramiraproject/item/GoldPlateItem.java",
-          "src/main/resources/assets/terramiraproject/models/item/gold_plate.json"
+          "src/main/resources/assets/terramiraproject/models/item/gold_plate.json",
+          "src/main/java/net/mcreator/terramiraproject/item/GoldPlateItem.java"
         ]
       }
     },
@@ -37,8 +37,8 @@
       "registry_name": "iron_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terramiraproject/item/IronPlateItem.java",
-          "src/main/resources/assets/terramiraproject/models/item/iron_plate.json"
+          "src/main/resources/assets/terramiraproject/models/item/iron_plate.json",
+          "src/main/java/net/mcreator/terramiraproject/item/IronPlateItem.java"
         ]
       }
     },
@@ -51,8 +51,8 @@
       "registry_name": "jumping_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/terramiraproject/models/item/jumping_plate.json",
-          "src/main/java/net/mcreator/terramiraproject/item/JumpingPlateItem.java"
+          "src/main/java/net/mcreator/terramiraproject/item/JumpingPlateItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/jumping_plate.json"
         ]
       }
     },
@@ -65,8 +65,8 @@
       "registry_name": "redstoneplate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terramiraproject/item/RedstoneplateItem.java",
-          "src/main/resources/assets/terramiraproject/models/item/redstoneplate.json"
+          "src/main/resources/assets/terramiraproject/models/item/redstoneplate.json",
+          "src/main/java/net/mcreator/terramiraproject/item/RedstoneplateItem.java"
         ]
       }
     },
@@ -94,9 +94,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/terramiraproject/block/PrismaticoreBlock.java",
-          "src/main/resources/assets/terramiraproject/models/block/prismaticore.json",
           "src/main/resources/assets/terramiraproject/models/item/prismaticore.json",
-          "src/main/resources/assets/terramiraproject/blockstates/prismaticore.json"
+          "src/main/resources/assets/terramiraproject/blockstates/prismaticore.json",
+          "src/main/resources/assets/terramiraproject/models/block/prismaticore.json"
         ]
       }
     },
@@ -202,8 +202,8 @@
       "registry_name": "fusion_prisma",
       "metadata": {
         "files": [
-          "src/main/resources/assets/terramiraproject/models/item/fusion_prisma.json",
-          "src/main/java/net/mcreator/terramiraproject/item/FusionPrismaItem.java"
+          "src/main/java/net/mcreator/terramiraproject/item/FusionPrismaItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/fusion_prisma.json"
         ]
       }
     },
@@ -229,9 +229,9 @@
       "registry_name": "oronore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/terramiraproject/models/item/oronore.json",
           "src/main/resources/assets/terramiraproject/blockstates/oronore.json",
           "src/main/java/net/mcreator/terramiraproject/block/OronoreBlock.java",
-          "src/main/resources/assets/terramiraproject/models/item/oronore.json",
           "src/main/resources/assets/terramiraproject/models/block/oronore.json"
         ]
       }
@@ -295,9 +295,9 @@
       "registry_name": "ferrosore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/terramiraproject/models/item/ferrosore.json",
           "src/main/resources/assets/terramiraproject/models/block/ferrosore.json",
           "src/main/java/net/mcreator/terramiraproject/block/FerrosoreBlock.java",
-          "src/main/resources/assets/terramiraproject/models/item/ferrosore.json",
           "src/main/resources/assets/terramiraproject/blockstates/ferrosore.json"
         ]
       }
@@ -311,8 +311,8 @@
       "registry_name": "ferrosingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/terramiraproject/models/item/ferrosingot.json",
-          "src/main/java/net/mcreator/terramiraproject/item/FerrosingotItem.java"
+          "src/main/java/net/mcreator/terramiraproject/item/FerrosingotItem.java",
+          "src/main/resources/assets/terramiraproject/models/item/ferrosingot.json"
         ]
       }
     },
