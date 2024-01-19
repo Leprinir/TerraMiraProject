@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Poisoned touch",
+    "icon": "poisoned_touch_effect.png",
+    "color": {
+      "value": -13408768,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "PoisonedtoucheffectEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "PoisonedtoucheffectActiveTickCondition"
+    }
+  }
+}
